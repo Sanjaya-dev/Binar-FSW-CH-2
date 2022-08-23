@@ -25,7 +25,7 @@ nav{
     margin-right: 150px;
 }
 .container_content{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .register{
@@ -167,8 +167,10 @@ nav{
     padding: 10px;
 }
 .crd_title_2{
+    background-color: #0D28A6;
     font-family: 'Helvetica';
     font-style: normal;
+    border-radius: 12px;
 }
 .crd_title_2 h5{
     padding-top: 64px;
@@ -222,7 +224,7 @@ footer{
 }
 /* end footer */
 /* mobile 360px */
-@media(max-width : 600px) {
+@media(max-width : 500px) {
     .contain_navbar nav{
         margin-left: 30px;
     }
@@ -249,9 +251,28 @@ footer{
         height: 199px;
     }
     /* layanan */
+    .layanan {
+        margin-top: 40px;
+    }
     .layanan .img-service{
         width: 252px;
-        margin: 10px 0 0 30px;
+        margin-left: 30px;
         padding-bottom: 20px;
+    }
+    /* why Us */
+    .why_us .col-lg-12{
+        text-align: center;
+    }
+    .card_content .crd_title_2{
+        text-align: center;
+    }
+    .card_content p{
+        width: 212px;
+        height: 90px;
+        margin-bottom: 30px;
+    } 
+    /* FAQ */
+    #FAQ .faq_title{
+        text-align: center;
     }
 }
