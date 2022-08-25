@@ -223,15 +223,28 @@ footer{
     padding-left: 8px;
 }
 /* end footer */
-/* mobile 360px */
+/* mobile */
 @media(max-width : 500px) {
     .contain_navbar nav{
         margin-left: 30px;
     }
     .title-prodak h1{
         width: 248px;
-        height: 200px;
+        height: 180px;
         margin-top: 0;
+    }
+    .navbar .offcanvas{
+        width: 60% !important;
+    }
+    .navbar .offcanvas a{
+        font-weight: bold;
+    }  
+    .offcanvas-body{
+        padding-top: 0 !important;
+    }
+    .offcanvas .offcanvas-body ul{
+        width: 90px;
+        margin: 0 !important;
     }
     .title-prodak p{
         font-family: Helvetica, sans-serif;
@@ -240,7 +253,7 @@ footer{
         font-weight: 300;
         line-height: 20px;
         width: 328px;
-        height: 60px;
+        height: 80px;
         align-self: stretch;
     }
     .title-prodak .button-order{
