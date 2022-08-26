@@ -235,8 +235,33 @@ footer{
     padding-left: 8px;
 }
 /* end footer */
+
 /* mobile */
-@media(max-width : 500px) {
+@media(max-width: 980px){
+    .offcanvas .navbar-brand{
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .container .title-image{
+        width: fit-content;
+    }
+    .offcanvas-body{
+        padding-top: 0 !important;
+    }
+    /* layanan */
+    .layanan .img-service{
+        margin: 0 0 30px 70px;
+    }
+    /* Testimonial */
+    .testimonials img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0;
+    }
+}
+
+@media(max-width : 700px) {
     .contain_navbar nav{
         margin-left: 30px;
     }
@@ -250,13 +275,14 @@ footer{
         width: 50% !important;
     }
     .navbar .offcanvas a{
+        margin-left: 10px;
         font-weight: bold;
     }  
     .offcanvas-body{
         padding: 0 0 0 5px !important;
     }
     .offcanvas .offcanvas-body ul{
-        width: 100px;
+        width: 110px;
         margin: 0 !important;
     }
     .title-prodak p{
@@ -282,7 +308,7 @@ footer{
     }
     .layanan .img-service{
         width: 252px;
-        margin-left: 30px;
+        margin-left: 20px;
         padding-bottom: 20px;
     }
     /* why Us */
