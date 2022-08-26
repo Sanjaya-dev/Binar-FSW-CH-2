@@ -245,6 +245,9 @@ footer{
     .container .title-image{
         width: fit-content;
     }
+    .offcanvas-body{
+        padding-top: 0 !important;
+    }
     /* layanan */
     .layanan .img-service{
         margin: 0 0 30px 70px;
